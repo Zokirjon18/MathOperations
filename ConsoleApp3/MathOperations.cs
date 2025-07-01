@@ -22,5 +22,14 @@
             return num1 / num2;
         }
 
+        public bool isEven(int num1)
+        {
+            if(num1 % 2 != 0)
+            {
+                return false;
+            }
+            return true;
+        }
+
     }
 }
